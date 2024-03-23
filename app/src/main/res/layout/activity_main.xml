@@ -24,23 +24,29 @@
         android:layout_height="match_parent"
         app:defaultNavHost="true"
         app:layout_constraintBottom_toTopOf="@id/nav_view"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/mobile_navigation" />
 
     <EditText
         android:id="@+id/Companyname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
         android:ems="10"
         android:fontFamily="sans-serif-black"
         android:inputType="text"
+        android:singleLine="false"
         android:text="@string/title_company"
         android:textAlignment="center"
-        android:textColor="#4FE855"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="56dp" />
+        android:textAllCaps="false"
+        android:textColor="#05AC0C"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
