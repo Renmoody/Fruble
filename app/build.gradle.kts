@@ -48,7 +48,17 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // https://mvnrepository.com/artifact/javax.activation/activation
+    implementation("javax.activation:activation:1.1.1")
+    // https://mvnrepository.com/artifact/javax.mail/mail
+    implementation("javax.mail:mail:1.4.7")
+    // https://mvnrepository.com/artifact/javax.mail/mail
+    implementation("javax.mail:mail:1.4")
+
+
+
 }
